@@ -5,7 +5,3 @@ resources:
       name: files
       schema_name: data
       catalog_name: source
-      grants:
-        - principal: tom.mcboyle@gmail.com
-          privileges: 
-            - CAN_MANAGE

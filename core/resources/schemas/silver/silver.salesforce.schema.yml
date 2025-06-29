@@ -5,7 +5,3 @@ resources:
       name: salesforce
       catalog_name: silver
       comment: Salesforce-sourced silver tables.
-      grants:
-        - principal: tom.mcboyle@gmail.com
-          privilieges: 
-            - CAN_MANAGE

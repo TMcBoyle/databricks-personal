@@ -5,7 +5,3 @@ resources:
       name: salesforce
       catalog_name: bronze
       comment: COINS-sourced bronze tables.
-      grants:
-        - principal: tom.mcboyle@gmail.com
-          privileges: 
-            - CAN_MANAGE
