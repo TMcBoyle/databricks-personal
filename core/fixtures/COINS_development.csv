@@ -1,10 +1,10 @@
-﻿kco,job_num,job_name
-110,1,Hobbiton Hamlet
-110,2,Gondor Grange
-110,3,Mordor Meadows
-110,4,Rivendell Riverside
-310,1,Hogsmeade Hovel
-310,2,Diagon Drive
-440,1,Lumiére Lane
-440,2,Esquie's Escarpment
-440,3,Gestral Grove
+﻿kco,job_num,job_name,jtlastupdate
+110,1,Hobbiton Hamlet,2025-06-09
+110,2,Gondor Grange,2025-06-09
+110,3,Mordor Meadows,2025-06-09
+110,4,Rivendell Riverside,2025-06-09
+310,1,Hogsmeade Hovel,2025-06-09
+310,2,Diagon Drive,2025-06-09
+440,1,Lumiére Lane,2025-06-09
+440,2,Esquie's Escarpment,2025-06-09
+440,3,Gestral Grove,2025-06-09
