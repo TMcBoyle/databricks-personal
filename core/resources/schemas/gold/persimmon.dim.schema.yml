@@ -5,3 +5,7 @@ resources:
       name: dim
       catalog_name: persimmon
       comment: Persimmon data model dimension tables.
+      grants:
+        - principal: tom.mcboyle@gmail.com
+          privileges: 
+            - CAN_MANAGE

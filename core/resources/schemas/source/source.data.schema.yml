@@ -5,3 +5,7 @@ resources:
       name: data
       catalog_name: source
       comment: General data source files. Mimics an external data source.
+      grants:
+        - principal: tom.mcboyle@gmail.com
+          privileges: 
+            - CAN_MANAGE

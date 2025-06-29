@@ -5,3 +5,7 @@ resources:
       name: fact
       catalog_name: persimmon
       comment: Persimmon data model fact tables.
+      grants:
+        - principal: tom.mcboyle@gmail.com
+          privileges: 
+            - CAN_MANAGE
