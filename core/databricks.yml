@@ -5,8 +5,8 @@ bundle:
   uuid: 097a69cd-2827-48ba-872f-e18af22d1188
 
 include:
-  - resources/*.yml
-  - resources/**/*.yml
+  - resources/volumes/*.yml
+  - resources/schemas/*/*.yml
 
 targets:
   dev:
