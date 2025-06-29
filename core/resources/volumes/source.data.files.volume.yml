@@ -1,0 +1,7 @@
+
+resources:
+  volumes:
+    source_data_files:
+      name: files
+      schema_name: data
+      catalog_name: source

@@ -1,0 +1,7 @@
+
+resources:
+  schemas:
+    source_data:
+      name: data
+      catalog_name: source
+      comment: General data source files. Mimics an external data source.

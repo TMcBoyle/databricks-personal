@@ -1,0 +1,7 @@
+
+resources:
+  schemas:
+    silver_salesforce:
+      name: salesforce
+      catalog_name: silver
+      comment: Salesforce-sourced silver tables.

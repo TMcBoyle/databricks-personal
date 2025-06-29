@@ -1,0 +1,7 @@
+
+resources:
+  schemas:
+    bronze_coins:
+      name: coins
+      catalog_name: bronze
+      comment: COINS-sourced bronze tables.

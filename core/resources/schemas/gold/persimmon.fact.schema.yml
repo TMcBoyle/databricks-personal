@@ -1,0 +1,7 @@
+
+resources:
+  schemas:
+    persimmon_fact:
+      name: fact
+      catalog_name: persimmon
+      comment: Persimmon data model fact tables.

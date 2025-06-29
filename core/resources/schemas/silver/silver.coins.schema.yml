@@ -1,0 +1,7 @@
+
+resources:
+  schemas:
+    silver_coins:
+      name: coins
+      catalog_name: silver
+      comment: COINS-sourced silver tables.

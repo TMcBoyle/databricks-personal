@@ -1,0 +1,7 @@
+
+resources:
+  schemas:
+    bronze_salesforce:
+      name: salesforce
+      catalog_name: bronze
+      comment: COINS-sourced bronze tables.
