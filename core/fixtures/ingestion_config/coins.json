@@ -1,0 +1,42 @@
+[
+    {
+        "source_system": "coins",
+        "entity": "coins_company",
+        "source_type": "volume_csv",
+        "connection_details": {
+            "volume_path": "/Volumes/source/data/files/COINS_company.csv"
+        },
+        "watermark": "jtlastupdate"
+    },
+    {
+        "source_system": "coins",
+        "entity": "coins_development",
+        "source_type": "volume_csv",
+        "connection_details": {
+            "volume_path": "/Volumes/source/data/files/COINS_development.csv",
+            "watermark": "jtlastupdate"
+        },
+        "watermark": "jtlastupdate"
+    },
+    {
+        "source_system": "coins",
+        "entity": "coins_plot",
+        "source_type": "volume_csv",
+        "connection_details": {
+            "volume_path": "/Volumes/source/data/files/COINS_plot.csv",
+            "watermark": "jtlastupdate"
+        },
+        "watermark": "jtlastupdate"
+    },
+    {
+        "source_system": "coins",
+        "entity": "coins_sales",
+        "source_type": "volume_csv",
+        "connection_details": {
+            "volume_path": "/Volumes/source/data/files/COINS_sales.csv",
+            "watermark": "jtlastupdate"
+        },
+        "watermark": "jtlastupdate"
+    }
+]
+

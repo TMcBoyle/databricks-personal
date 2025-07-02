@@ -1,0 +1,21 @@
+
+resources:
+  jobs:
+    orchestration:
+      name: orchestration
+      tasks:
+        - task_key: load_config
+          notebook_task:
+            notebook_path: ../../source/notebooks/Load Config.ipynb
+        - task_key: iterate_over_entities
+          depends_on: 
+            - task_key: load_config
+          for_each_task:
+            inputs: '{{tasks.load_config.values.entities}}'
+            task:
+              task_key: ingest_entity
+              notebook_task:
+                notebook_path: ../../source/notebooks/Ingest Entity.ipynb
+                base_parameters:
+                  target_schema: ${resources.schemas.bronze_coins.name}
+                  entity: '{{input}}'

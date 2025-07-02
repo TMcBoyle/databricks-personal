@@ -1,0 +1,12 @@
+
+resources:
+  jobs:
+    deployment_mode_test:
+      name: Deployment Mode Test
+      tasks:
+        - task_key: run_notebook
+          notebook_task:
+            notebook_path: ../../source/notebooks/Deployment Mode Test.ipynb
+            base_parameters:
+                deployment_mode: ${bundle.target}
+                dev_schema: ${bundle.target.name_prefix}
